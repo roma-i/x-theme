@@ -1,0 +1,589 @@
+/*--------------------------------------------------------*/
+/* TABLE OF CONTENTS: */
+/*--------------------------------------------------------*/
+/* 00 - INCLUDE FONTS */
+/* 01 - CSS RESET BY ERIC MEYER */
+/* 02 - HEADER */
+/* 03 - FOOTER */
+/* 04 - BLOG */
+/* 05 - next */
+/* 06 - next */
+/* 07 - next */
+/* 07 - next */
+/* 07 - next */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* 00 - INCLUDE FONTS */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css');
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* 01 - CSS RESET BY ERIC MEYER */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* 02 - HEADER */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+.x-theme-header {
+}
+.x-theme-header .x-theme-logo{
+    float: left;
+}
+.x-theme-header .x-theme-navigation li{
+    display: block;
+    float: left;
+}
+.x-theme-header .x-theme-navigation {}
+.x-theme-header .x-theme-social-list{}
+.x-theme-header {}
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* 03 - FOOTER */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* 04 - BLOG */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+.blog-post {
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+/* Single post */
+.post-detailed {}
+.post-detailed img{
+    max-width: 100%;
+    height: auto;
+}
+.post-detailed .wp-caption{
+    padding-bottom: 3px;
+}
+.post-detailed .post-info .post-category,
+.post-detailed .post-info .post-date{
+    float: left;
+}
+.post-detailed .post-title{
+    clear: both;
+}
+.post-detailed {}
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* 05 - next */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* 06 - next */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* 07 - next */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* 08 - next */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/* Footer  */
+
+.x-theme-footer{
+    padding: 60px 0; 
+    background-color: #2d2d2f;
+}
+.x-theme-footer .x-theme-title-w{
+    font-size: 25px;
+    /* font-family: 'Muli', sans-serif; */
+    color: #019B5B;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 14px;
+}
+
+.x-theme-footer  .footer-widget{
+    margin-bottom: 65px;
+}
+.x-theme-footer  b{
+    font-weight: 600;
+}
+
+.x-theme-footer a{
+    color: #b7b7b7;
+    line-height: 18px;
+    font-family: "Open Sans",sans-serif;
+    font-size: 13px;
+}
+
+.x-theme-footer .footer-logo{
+    width: 103px;
+    height: 44px;
+    background-image: url('../img/logo-header2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.x-theme-footer  .footer-widget p{
+    padding-bottom: 15px;
+}
+
+.x-theme-footer  .footer-widget p,
+.x-theme-footer  .footer-widget a,
+.x-theme-footer  .footer-widget .post-date{
+    font-family: "Open Sans",sans-serif;
+    font-weight: 200;
+    color: #fff;
+}
+
+.x-theme-footer  .footer-widget .post-date{
+    display: block;
+    padding-top: 15px;
+}
+
+.x-theme-footer .list-social{
+
+}
+.x-theme-footer .list-social li{
+    display: inline-block;
+}
+.x-theme-footer .list-social a{
+    padding: 17px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    display: block;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 17px;
+    background: #FF5E0E;
+    text-align: center;
+    color: #3c3d41;
+}
+
+.x-theme-footer .menu li a{
+    color: #b7b7b7;
+    line-height: 21px;
+    font-family: "Open Sans",sans-serif;
+}
+
+.x-theme-footer .widget_text p{
+    line-height: 21px;
+    font-family: "Open Sans",sans-serif;
+   color: #b7b7b7;
+}
+
+
+.x-theme-header{
+    background-color: #2d2d2e;
+    padding-bottom: 11px;
+}
+.x-theme-header .logo__img{
+    display: block;
+    width: 233px;
+    height: auto;
+}
+.x-theme-navigation{
+    display: block;
+    float: right;
+    position: relative;
+}
+.x-theme-navigation .main-menu li{
+    float: left;
+}
+
+.x-theme-navigation .main-menu li a{
+    display: block;
+    line-height: 24px;
+    float: none;
+    padding: 53px 6px 0;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    font-family: "Open Sans",sans-serif;
+    color: #b7b7b7;
+    text-transform: uppercase;
+}
+
+.x-theme-navigation .main-menu > li > a:hover,
+.x-theme-navigation .main-menu > .active > a,
+.x-theme-navigation .main-menu > .current-menu-item > a {
+    box-shadow: inset 0 4px 0 0 #169c5e;
+    text-decoration: none;
+
+}
+
+.x-theme-navigation .phone-number {
+    line-height: 0.733;
+    letter-spacing: -2px;
+    position: absolute;
+    top: 20px;
+    font-weight: 600;
+    color: #ed6225;
+    font-size: 34px;
+    right: 19px;
+    z-index: 999;
+    font-family: "Lato",sans-serif;
+}
+.x-theme-navigation .phone-number img{
+    vertical-align: middle;
+}
+.x-theme-navigation .phone-number a{
+    color: #ed6225;
+    text-decoration: none;
+}
+
+.x-theme-footer .post-date{
+    color: #b7b7b7;
+    font-size: 13px;
+    display: block;
+    font-family: "Open Sans",sans-serif;
+    padding: 15px 0 20px;
+}
+
+
+.x-theme-breadcrumbs{
+    margin-top: 40px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    font-style: normal;
+    color: #212121;
+    font-weight: 600;
+}
+.x-theme-breadcrumbs a {
+    color: #ed6225;
+    -webkit-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+.x-theme-breadcrumbs a:hover {
+    color: #212121;
+}
+
+.single-post .zip-post-page-title{
+    margin-top: 20px;
+}
+.single-post .navigation-post{
+    padding-top: 40px;
+}
+.single-post .navigation-post a {
+    font-size: 18px;
+    line-height: 26px;
+    font-family: 'Muli', sans-serif;
+    padding: 9px 17px 10px;
+    background: #212121;
+    color: #fff;
+    font-weight: 600;
+    margin: 0 5px;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    -webkit-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+    text-decoration: none;
+    margin-bottom: 65px;
+}
+.single-post .navigation-post a:hover {
+    background: #FF5E0E;
+}
+.single-post .navigation-post a:last-child{
+    float: right;
+}
+.single-post .navigation-post a:first-child {
+    float: left;
+}
+.single-post .navigation-post a span{
+    display: inline-block;
+    vertical-align: text-bottom;
+    line-height: 22px;
+}
+.post-detailed .post-content img, .post-detailed .post-content iframe {
+    margin: 0 auto;
+    display: block;
+}
+
+.woocommerce-product-details__short-description iframe{
+    height: 200px;
+    width: auto;
+}
+
+
+/* Get Font Awesome from CDN */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css');
+
+
+.x-theme-navigation {
+    position: relative;
+    min-height: 40px;
+}
+
+.main-menu{
+    padding: 2px 10px;
+    margin: 0;
+}
+
+.main-menu li{
+    display: inline-block;
+    margin-right: 5px;
+    padding-right: 5px;
+    position: relative;
+}
+
+.main-menu .sub-menu{
+    display: none;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+}
+
+/* Active menu items */
+.main-menu .current-menu-parent a,
+.main-menu .current-menu-item a{
+    color: #000;
+}
+
+/* Show second and third menu levels */
+@media screen and (min-width:768px) {
+
+    .main-menu .sub-menu li{
+        display: block;
+    }
+
+    .x-theme-navigation .main-menu > .current-menu-item > a:after{
+        margin-left: 5px;
+    }
+
+    .main-menu li > .sub-menu{
+        padding: 25px 15px 5px;
+        z-index: 1;
+        background-color: #2d2d2e;
+    }
+    .x-theme-navigation .main-menu li > .sub-menu li {
+        float: none;
+    }
+    .x-theme-navigation .main-menu li > .sub-menu li a{
+        padding: 5px 0;
+    }
+
+    .main-menu li:hover > .sub-menu{
+        
+        display: block;
+    }
+
+    .main-menu .sub-menu .sub-menu{
+        position: absolute;
+        left: 100%;
+        top: 0;
+    }
+
+    /* First level menu arrows */
+    .main-menu > .menu-item-has-children > a:after {
+        content: '\f107';
+        font-family: 'FontAwesome';
+    }
+
+    /* Second level menu arrows */
+    .main-menu .sub-menu .menu-item-has-children > a:after{
+        content: '\f105';
+        font-family:'FontAwesome';
+    }   
+}
+
+
+/* Responsive menu button */
+.nav-menu-icon {
+    position: absolute;
+    right: 0;
+    top: 39px;
+    width: 32px;
+    height: 32px;
+    display: none;
+    cursor: pointer;    
+}
+
+/* Don`t reqiured */
+.x-theme-navigation.active .nav-menu-icon i{
+    background: none;
+}
+.x-theme-navigation.active .nav-menu-icon i:before{
+    top: 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.x-theme-navigation.active .nav-menu-icon i:after{
+    top: 0;
+    -webkit-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    transform: rotate(135deg);
+}
+/* End Don`t reqiured */
+
+.nav-menu-icon i:before, .nav-menu-icon i:after {
+    content: '';
+    width: 28px;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    -moz-transition: all 0.15s ease-out;
+    -o-transition: all 0.15s ease-out;
+    -webkit-transition: all 0.15s ease-out;
+    transition: all 0.15s ease-out;
+    -ms-transition: all 0.15s ease-out;
+}
+
+.nav-menu-icon i:before {
+    top: -7px;
+}
+
+.nav-menu-icon i:after {
+    bottom: -7px;
+}
+
+.nav-menu-icon i {
+    position: relative;
+    display: inline-block;
+    width: 28px;
+    height: 2px;
+    background: #fff;
+}
+
+.menu-item-has-children > a span{
+    display: none;
+}
+
+/* Responsive menu */
+@media screen and (max-width:768px) {
+    .nav-menu-icon {
+        display: block;
+    }
+
+    .x-theme-header .logo__img{
+        width: 150px;
+        margin: 5px auto 10px;
+    }
+    .x-theme-header .x-theme-logo{
+        float: left;
+    }
+
+    .x-theme-navigation{
+        padding-top: 7px;
+    }
+    .x-theme-navigation .phone-number{
+        position: static; 
+        text-align: right;
+    }
+    .x-theme-navigation .phone-number a{
+        font-size: 22px;
+        letter-spacing: 0;
+    }
+    .x-theme-navigation .phone-number img {
+        width: 15px;
+    }
+
+    .main-menu {
+        display: none;
+    }
+
+
+    .x-theme-navigation .main-menu li{
+        display: block;
+        float: none;
+    }
+    .x-theme-navigation .main-menu li a{
+        padding: 10px 17px 0 5px;
+    }
+
+    .x-theme-navigation{
+        float: none;
+        padding-top: 4px;
+    }
+
+    .x-theme-navigation.active .main-menu{
+        display: block;
+        width: 100%; 
+        padding: 0;
+        height: auto;
+        padding: 35px 0 15px;
+    }
+
+    .main-menu li{
+        display: block;
+    }
+
+    .main-menu .sub-menu{
+        position: static;
+        padding: 5px 15px;
+    }
+    
+
+    .menu-item-has-children > a span{
+        display: inline-block;
+        padding-left: 10px;
+    }
+
+    .x-theme-navigation .main-menu > li > a:hover,
+    .x-theme-navigation .main-menu > .active > a,
+    .x-theme-navigation .main-menu > .current-menu-item > a{
+        box-shadow: none;
+    }
+    
+    .menu-item-has-children.active > .sub-menu{
+        display: block;
+        position: static;
+    }
+}
